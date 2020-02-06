@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# Operators and Loops
 
-You can use the [editor on GitHub](https://github.com/Haneenabudayeh/read08/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Loops:
+Loops check condition, if it returns a true, then code  will run, then after its done if its still true,then it runs it again
 
-### Markdown
+* For loop: if you use it, it will run the code a specific number of times.
+* While: you use it when you dont know how many times you need the code to run
+* Do While; its similiar to while except it will run every code that it has inside the curly brackets.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### For loop uses counter as condition
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+#### The for loop has the following syntax:
 
-- Bulleted
-- List
+for (statement 1; statement 2; statement 3) {
+// code block to be executed }
 
-1. Numbered
-2. List
+#### The While Loop
+The while loop loops through a block of code as long as a specified condition is true.
 
-**Bold** and _Italic_ and `Code` text
+Syntax
+while (condition) {
+// code block to be executed
+}
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## comparisation signs :
 
-### Jekyll Themes
+1. == called equal to in data
+1. != called not equal to in data
+1. === called equal to in type and data
+1. !== called not equal in type and type
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Haneenabudayeh/read08/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## logical operaters
+* && called and logic
+* ”	 	” called or logic
